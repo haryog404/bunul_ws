@@ -1,0 +1,13 @@
+nav {
+  font-size: 160%;
+  position: fixed;
+}
+.navbar-brand {
+  font-size: 120%;
+  padding: 10pt;
+  padding-left: 7%;
+}
+.nav-item {
+  margin-left: 30pt;
+  margin-right: -10pt;
+}

@@ -1,0 +1,262 @@
+body {
+    background-image: url('/assets/bg-laporan.jpeg');
+    background-size: 50%; /* Mengatur ukuran gambar menjadi lebih kecil */
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Untuk menghindari pengulangan gambar */
+    background-position: center; /* Memposisikan gambar di tengah */
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+}
+ul, li {
+  list-style: none;
+}
+h1 {
+  font-size: 60px;
+}
+.page-title {
+    position: relative; /* Menjadikan posisi elemen absolute */
+    margin-top: 120px; /* Sesuaikan dengan tinggi navbar *//* Sesuaikan ukuran teks */
+    color: transparent; /* Warna teks transparan */
+    background: -webkit-linear-gradient(#000000, #e0e0e0); /* Efek gradient sebagai background teks */
+    -webkit-background-clip: text; /* Menggunakan teks sebagai clip pada background */
+    -webkit-text-fill-color: transparent; /* Membuat warna teks transparan */
+    font-weight: bold; /* Menambahkan tebal pada teks */
+    z-index: 999; /* Membuat teks berada di atas konten lain */
+    text-align: center;
+}
+
+
+.bima {
+  padding: 2%;
+    justify-content: center;
+    display: flex;
+}
+.report-form {
+    margin-left: 20px;
+    border: solid;
+    margin-top:2.5rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+/*     float: right; Tambahkan ini */
+}
+
+  .report-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .report-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .report-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .report-form input[type="text"],
+  .report-form input[type="date"],
+  .report-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  }
+  
+  .report-form textarea {
+    height: 150px;
+  }
+  
+  .report-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  }
+  
+  .report-form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .report-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #262626;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .report-form button[type="submit"]:hover {
+    background-color: #262626;
+  }
+  .report-form input[type="file"] {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+
+.report-form input[type="file"]:focus {
+    outline: none;
+}
+
+.report-form input[type="file"]::-webkit-file-upload-button {
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.report-form input[type="file"]:hover::-webkit-file-upload-button {
+    background-color: #262626;
+}
+
+
+
+
+.report-form-right{
+    margin-top:2.5rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    float: left; /* Tambahkan ini */
+    position: relative;
+    width: 100%;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word;
+    max-height: 1000px;
+    overflow-y: scroll;
+}
+
+
+.report-form-right h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 23px;
+  }
+  
+.report-form-right h3{
+    font-size: 15px;
+}
+
+.report-form-right h4{
+    font-size: 14px;
+}
+
+.report-form-right p{
+    font-size: 11px;
+}
+
+  .report-form-right .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .report-form-right label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .report-form-right input[type="text"],
+  .report-form-right input[type="date"],
+  .report-form-right textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  }
+  
+  .report-form-right textarea {
+    height: 150px;
+  }
+  
+  .report-form-right select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  }
+  
+  .report-form-right input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .report-form-right button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #262626;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .report-form-right button[type="submit"]:hover {
+    background-color: #262626;
+  }
+  .report-form-right input[type="file"] {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+
+.report-form-right input[type="file"]:focus {
+    outline: none;
+}
+
+.report-form-right input[type="file"]::-webkit-file-upload-button {
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.report-form-right input[type="file"]:hover::-webkit-file-upload-button {
+    background-color: #262626;
+}
+
+.report-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; /* Menambahkan garis pembatas */
+    padding-bottom: 20px; /* Menambahkan ruang antara setiap report-item */
+}
+
+.admin-reply {
+    font-style: italic; /* Teks menjadi miring */
+    color: #555; /* Warna teks abu-abu */
+    margin: 0;
+}
+
+.image-container {
+    width: 60%; /* Sesuaikan dengan lebar container */
+    height: 0;
+    padding-top: 40%; /* Rasio 16:9 (9 / 16 * 100%) */
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Auto crop gambar */
+}

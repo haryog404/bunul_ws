@@ -1,0 +1,32 @@
+
+.containeran {
+  padding-top: 60px; /* Tambahkan padding atas setara dengan tinggi navbar */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 90%;
+  margin: 80px auto 20px; /* Sesuaikan margin untuk mempertahankan jarak dari atas */
+}
+.cardan {
+  display: flex;
+  width: 100%;
+  height: 250px; /* Menambahkan tinggi yang lebih besar */
+  margin-bottom: 30px; /* Menambahkan jarak antara kartu */
+  border: 1px solid #ccc; /* Menambahkan border untuk estetika */
+  border-radius: 8px; /* Menambahkan sudut lengkung ke kartu */
+  overflow: hidden; /* Memastikan konten dalam kartu tidak keluar */
+}
+
+.cardan img {
+  width: 260px; /* Mengatur lebar gambar */
+  height: 100%; /* Mengatur tinggi gambar */
+  object-fit: cover;
+}
+
+.descriptionnn {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-left: 30px; /* Menambahkan jarak antara kartu dan deskripsi */
+}
+
